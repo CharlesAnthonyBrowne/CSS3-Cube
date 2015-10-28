@@ -1,0 +1,38 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+#concept-container {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+#design-wrapper {
+  border: solid 1px black;
+  box-shadow: 1px 1px 9px 3px #CCCCCC;
+  width: 200px;
+  height: 300px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.bottom {
+  border: solid 1px black;
+  box-shadow: 1px 1px 9px 3px #CCCCCC;
+  width: 100px;
+  height: 30px;
+  display: block;
+  position: relative;
+  top: 250px;
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btn_img {
+  width: 25px;
+  float: right;
+  height: 20px;
+  margin: 5px;
+}
