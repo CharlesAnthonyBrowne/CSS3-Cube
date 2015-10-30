@@ -33,8 +33,11 @@ html, body {
   margin-right: auto;
   display: block;
   padding: 10px;
+  position: absolute;
   font-size: 10px;
   text-align: center;
+  top: 50px;
+  left: 525px;
   font-family: 'Slabo 27px', serif;
 }
 .bottom {
@@ -43,10 +46,10 @@ html, body {
   width: 100px;
   height: 30px;
   display: block;
-  position: relative;
+  position: absolute;
   clear: both;
-  margin-left: auto;
-  margin-right: auto;
+  right: 560px;
+  top: 265px;
 }
 .btn_img {
   width: 25px;
@@ -55,5 +58,18 @@ html, body {
   margin: 5px;
 }
 .split_anim {
-  transform: perspective( 600px ) rotateY( 45deg ) rotateX( 85deg );
+  transform: rotateY( 65deg ) rotateX( 20deg );
+}
+.bottom_anim {
+        transform: rotateY( 65deg ) rotateX( 20deg );
+    right: 545px;
+    top: 138px;
+  }
+.content_anim {
+  top: 100px;
+  left: 500px;
+  transform: rotateY( 65deg ) rotateX( 20deg );
+}
+.top_anim {
+      transform: rotateY( 65deg ) rotateX( 20deg );
 }
