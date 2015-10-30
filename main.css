@@ -55,5 +55,5 @@ html, body {
   margin: 5px;
 }
 .split_anim {
-  transform: perspective( 600px ) rotateY( 45deg );
+  transform: perspective( 600px ) rotateY( 45deg ) rotateX( 85deg );
 }
