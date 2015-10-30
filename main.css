@@ -39,6 +39,11 @@ html, body {
   top: 50px;
   left: 525px;
   font-family: 'Slabo 27px', serif;
+  /**/
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 .bottom {
   border: solid 1px black;
@@ -50,6 +55,11 @@ html, body {
   clear: both;
   right: 560px;
   top: 265px;
+  /**/
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
 }
 .btn_img {
   width: 25px;
@@ -61,9 +71,9 @@ html, body {
   transform: rotateY( 65deg ) rotateX( 20deg );
 }
 .bottom_anim {
-        transform: rotateY( 65deg ) rotateX( 20deg );
-    right: 545px;
-    top: 138px;
+  transform: rotateY( 65deg ) rotateX( 20deg );
+  right: 545px;
+  top: 138px;
   }
 .content_anim {
   top: 100px;
@@ -71,5 +81,5 @@ html, body {
   transform: rotateY( 65deg ) rotateX( 20deg );
 }
 .top_anim {
-      transform: rotateY( 65deg ) rotateX( 20deg );
+  transform: rotateY( 65deg ) rotateX( 20deg );
 }
