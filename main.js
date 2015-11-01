@@ -1,13 +1,9 @@
-(function mainJS() {
-  var btn = document.getElementsByClassName('btn_img');
+(function theMan(){
+  var btn = document.getElementById('toggle_btn');
+  var inner = document.getElementsByClassName('inner');
 
-  var container = document.getElementById('design-wrapper');
-  var top = document.getElementsByClassName('content');
-  var bottom = document.getElementsByClassName('bottom');
-
-  btn[0].addEventListener('click', function() {
-    top[0].className += ' split_anim';
-    container.className += 'top_anim';
-    bottom[0].className += ' bottom_anim';
+  btn.addEventListener('click', function(){
+    inner[0].style.transform = "rotate(0)";
+    console.log(inner[0]);
   });
 })();
