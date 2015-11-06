@@ -63,11 +63,11 @@ body {
  }
 
 .animate {
-  -webkit-animation : spinningH 6s infinite linear;
-  -moz-animation    : spinningH 6s infinite linear;
-  -o-animation      : spinningH 6s infinite linear;
-  -ms-animation     : spinningH 6s infinite linear;
-  animation         : spinningH 6s infinite linear;
+  -webkit-animation : spinningH 10s infinite linear;
+  -moz-animation    : spinningH 10s infinite linear;
+  -o-animation      : spinningH 10s infinite linear;
+  -ms-animation     : spinningH 10s infinite linear;
+  animation         : spinningH 10s infinite linear;
 }
 
 #cube {
@@ -80,7 +80,7 @@ body {
   -moz-transition     : -moz-transform 2s linear;
   -o-transition       : -o-transform 2s linear;
   -ms-transition      : -ms-transform 2s linear;
-  transition          : transform 2s linear;
+  transition          : transform 0.1s linear;
 
   -webkit-transform-style : preserve-3d;
   -moz-transform-style    : preserve-3d;
@@ -104,8 +104,9 @@ body {
   -o-transform      : translateZ(200px);
   -ms-transform     : translateZ(200px);
   transform         : translateZ(200px);
-  background-color  : #2E272F;
-  background-image: url(http://www.thegreatcourses.co.uk/media/catalog/product/cache/2/image/800x600/0f396e8a55728e79b48334e699243c07/1/8/1884---base_image_4.1424270645.jpg);
+  background-color  : #FFFFFF;
+  background-image: url(http://cdn.desktopwallpapers4.me/wallpapers/abstract/1280x800/1/5119-black-hole-1280x800-abstract-wallpaper.jpg);
+  background-size: cover;
   background-repeat : no-repeat;
 }
 
@@ -115,8 +116,9 @@ body {
   -o-transform      : rotateY(90deg) translateZ(200px);
   -ms-transform     : rotateY(90deg) translateZ(200px);
   transform         : rotateY(90deg) translateZ(200px);
-  background-color  : #2D3A4D;
-  background-image: url(http://www.thegreatcourses.co.uk/media/catalog/product/cache/2/image/800x600/0f396e8a55728e79b48334e699243c07/1/8/1884---base_image_4.1424270645.jpg);
+  background-color  : #FFFFFF;
+  background-image: url(http://cdn.desktopwallpapers4.me/wallpapers/abstract/1280x800/1/5119-black-hole-1280x800-abstract-wallpaper.jpg);
+  background-size: cover;
   background-repeat : no-repeat;
 }
 
@@ -126,8 +128,9 @@ body {
   -o-transform      : rotateY(180deg) translateZ(200px);
   -ms-transform     : rotateY(180deg) translateZ(200px);
   transform         : rotateY(180deg) translateZ(200px);
-  background-color  : #2D1C12;
-  background-image: url(http://www.thegreatcourses.co.uk/media/catalog/product/cache/2/image/800x600/0f396e8a55728e79b48334e699243c07/1/8/1884---base_image_4.1424270645.jpg);
+  background-color  : #FFFFFF;
+  background-image: url(http://cdn.desktopwallpapers4.me/wallpapers/abstract/1280x800/1/5119-black-hole-1280x800-abstract-wallpaper.jpg);
+  background-size: cover;
   background-repeat : no-repeat;
 }
 
@@ -137,8 +140,9 @@ body {
   -o-transform      : rotateY(-90deg) translateZ(200px);
   -ms-transform     : rotateY(-90deg) translateZ(200px);
   transform         : rotateY(-90deg) translateZ(200px);
-  background-color  : #693C1F;
-  background-image  : url(http://www.thegreatcourses.co.uk/media/catalog/product/cache/2/image/800x600/0f396e8a55728e79b48334e699243c07/1/8/1884---base_image_4.1424270645.jpg);
+  background-color  : #FFFFFF;
+  background-image  : url(http://cdn.desktopwallpapers4.me/wallpapers/abstract/1280x800/1/5119-black-hole-1280x800-abstract-wallpaper.jpg);
+  background-size: cover;
   background-repeat : no-repeat;
 }
 
@@ -148,8 +152,9 @@ body {
   -o-transform      : rotateX(-90deg) translateZ(200px) rotate(180deg);
   -ms-transform     : rotateX(-90deg) translateZ(200px) rotate(180deg);
   transform         : rotateX(-90deg) translateZ(200px) rotate(180deg);
-  background-color  : #955122;
-  background-image  : url(http://www.thegreatcourses.co.uk/media/catalog/product/cache/2/image/800x600/0f396e8a55728e79b48334e699243c07/1/8/1884---base_image_4.1424270645.jpg);
+  background-color  : #FFFFFF;
+  background-image  : url(http://cdn.desktopwallpapers4.me/wallpapers/abstract/1280x800/1/5119-black-hole-1280x800-abstract-wallpaper.jpg);
+  background-size: cover;
   background-repeat :no-repeat;
 }
 
@@ -159,8 +164,10 @@ body {
   -o-transform      : rotateX(90deg) translateZ(200px);
   -ms-transform     : rotateX(90deg) translateZ(200px);
   transform         : rotateX(90deg) translateZ(200px);
-  background-color  : #E34C26;
-  background-image: url(http://www.thegreatcourses.co.uk/media/catalog/product/cache/2/image/800x600/0f396e8a55728e79b48334e699243c07/1/8/1884---base_image_4.1424270645.jpg);
+  background-color  : #FFFFFF;
+
+  background-image: url(http://cdn.desktopwallpapers4.me/wallpapers/abstract/1280x800/1/5119-black-hole-1280x800-abstract-wallpaper.jpg);
+  background-size: cover;
   background-repeat :no-repeat;
   text-align:center;
 }
